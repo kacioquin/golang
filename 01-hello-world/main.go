@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/kacioquin/golang/hello"
+	"fmt"
+
+	"github.com/kacioquin/golang/01-hello-world/hello"
 )
 
 func main() {
-	hello.Hello()
+	message := hello.Hello()
+	fmt.Println(message)
 }
