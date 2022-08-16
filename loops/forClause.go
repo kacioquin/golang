@@ -2,10 +2,6 @@ package forclause
 
 import "fmt"
 
-// func forclause() {
-// 	forClauseIncrementByN(0, 10, 2)
-// }
-
 func ForClauseIncrementBy1(initial, condition int) {
 	for i := initial; i < condition; i++ {
 		fmt.Println("The value is: ", i)
