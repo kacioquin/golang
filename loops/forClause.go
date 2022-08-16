@@ -1,8 +1,8 @@
-package forclause
+package main
 
 import "fmt"
 
-func ForClauseIncrementBy1(initial, condition int) {
+func ForClauseIncrementBy1(initial int, condition int) {
 	for i := initial; i < condition; i++ {
 		fmt.Println("The value is: ", i)
 	}
